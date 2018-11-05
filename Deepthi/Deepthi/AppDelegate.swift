@@ -8,9 +8,9 @@
 
 import UIKit
 
-//change to test auto push   
+//change to test auto push
 
-
+//Test user
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
