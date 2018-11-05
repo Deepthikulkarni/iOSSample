@@ -5,11 +5,15 @@
 //  Created by Deepthi on 31/10/18.
 //  Copyright © 2018 Deepthi. All rights reserved.
 //
+//
 
 // To Test auto push build to Hockey
 //
 import UIKit
 
+//change to test auto push
+
+//Test user
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
