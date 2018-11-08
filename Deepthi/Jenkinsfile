@@ -1,0 +1,20 @@
+pipeline {
+agent any
+stages {
+stage('Example') {
+steps {
+echo 'Hello World'
+}
+}
+stage('Test Example') {
+steps {
+echo 'Hello World in Test'
+}
+}
+stage('Test Deploy') {
+steps {
+echo 'Hello World in Deploy'
+}
+}
+}
+}
