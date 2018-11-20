@@ -14,6 +14,7 @@
 		290DD65D2189C4E4007693FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290DD65B2189C4E4007693FE /* Main.storyboard */; };
 		290DD65F2189C4E5007693FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290DD65E2189C4E5007693FE /* Assets.xcassets */; };
 		290DD6622189C4E5007693FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290DD6602189C4E5007693FE /* LaunchScreen.storyboard */; };
+		293376CF21A4128600AEDE42 /* sonar-project.properties in Resources */ = {isa = PBXBuildFile; fileRef = 293376CE21A4128600AEDE42 /* sonar-project.properties */; };
 		298572992194507000008DA3 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 298572982194507000008DA3 /* Jenkinsfile */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		290DD65E2189C4E5007693FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		290DD6612189C4E5007693FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		290DD6632189C4E5007693FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293376CE21A4128600AEDE42 /* sonar-project.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sonar-project.properties"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
 		298572982194507000008DA3 /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				290DD6532189C4E4007693FE /* AppDelegate.swift */,
+				293376CE21A4128600AEDE42 /* sonar-project.properties */,
 				290DD6552189C4E4007693FE /* RootViewController.swift */,
 				290DD6572189C4E4007693FE /* DataViewController.swift */,
 				290DD6592189C4E4007693FE /* ModelController.swift */,
@@ -134,6 +137,7 @@
 				290DD6622189C4E5007693FE /* LaunchScreen.storyboard in Resources */,
 				298572992194507000008DA3 /* Jenkinsfile in Resources */,
 				290DD65F2189C4E5007693FE /* Assets.xcassets in Resources */,
+				293376CF21A4128600AEDE42 /* sonar-project.properties in Resources */,
 				290DD65D2189C4E4007693FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
