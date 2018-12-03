@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='DeepthiTests.xctest' tests='2' failures='0'>
+  <testsuite name='DeepthiTests.DeepthiTests' tests='2' failures='0'>
+    <testcase classname='DeepthiTests.DeepthiTests' name='testExample' time='0.005'/>
+    <testcase classname='DeepthiTests.DeepthiTests' name='testPerformanceExample' time='0.444'/>
+  </testsuite>
+</testsuites>

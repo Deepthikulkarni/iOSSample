@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/terryyin/lizard/master/lizard.xsl"?>
+<cppncss>
+	<measure type="Function">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+		</labels>
+		<item name="application(...) at Deepthi/AppDelegate.swift:23">
+			<value>1</value>
+			<value>3</value>
+			<value>2</value>
+		</item>
+		<item name="applicationWillResignActive(...) at Deepthi/AppDelegate.swift:28">
+			<value>2</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="applicationDidEnterBackground(...) at Deepthi/AppDelegate.swift:33">
+			<value>3</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="applicationWillEnterForeground(...) at Deepthi/AppDelegate.swift:38">
+			<value>4</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="applicationDidBecomeActive(...) at Deepthi/AppDelegate.swift:42">
+			<value>5</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="applicationWillTerminate(...) at Deepthi/AppDelegate.swift:46">
+			<value>6</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="2.1666666666666665"/>
+		<average label="CCN" value="1.1666666666666667"/>
+		<item name="viewDidLoad(...) at Deepthi/DataViewController.swift:17">
+			<value>7</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="didReceiveMemoryWarning(...) at Deepthi/DataViewController.swift:22">
+			<value>8</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="viewWillAppear(...) at Deepthi/DataViewController.swift:27">
+			<value>9</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="2.5555555555555554"/>
+		<average label="CCN" value="1.1111111111111112"/>
+		<item name="init(...) at Deepthi/ModelController.swift:28">
+			<value>10</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="viewControllerAtIndex(...) at Deepthi/ModelController.swift:35">
+			<value>11</value>
+			<value>8</value>
+			<value>3</value>
+		</item>
+		<item name="indexOfViewController(...) at Deepthi/ModelController.swift:47">
+			<value>12</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="pageViewController(...) at Deepthi/ModelController.swift:55">
+			<value>13</value>
+			<value>8</value>
+			<value>3</value>
+		</item>
+		<item name="pageViewController(...) at Deepthi/ModelController.swift:65">
+			<value>14</value>
+			<value>11</value>
+			<value>3</value>
+		</item>
+		<average label="NCSS" value="4.142857142857143"/>
+		<average label="CCN" value="1.5"/>
+		<item name="viewDidLoad(...) at Deepthi/RootViewController.swift:16">
+			<value>15</value>
+			<value>17</value>
+			<value>2</value>
+		</item>
+		<item name="didReceiveMemoryWarning(...) at Deepthi/RootViewController.swift:42">
+			<value>16</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="pageViewController(...) at Deepthi/RootViewController.swift:60">
+			<value>17</value>
+			<value>21</value>
+			<value>6</value>
+		</item>
+		<average label="NCSS" value="5.823529411764706"/>
+		<average label="CCN" value="1.7647058823529411"/>
+	</measure>
+	<measure type="File">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+			<label>Functions</label>
+		</labels>
+		<item name="Deepthi/AppDelegate.swift">
+			<value>1</value>
+			<value>18</value>
+			<value>7</value>
+			<value>6</value>
+		</item>
+		<item name="Deepthi/DataViewController.swift">
+			<value>2</value>
+			<value>15</value>
+			<value>3</value>
+			<value>3</value>
+		</item>
+		<item name="Deepthi/ModelController.swift">
+			<value>3</value>
+			<value>39</value>
+			<value>11</value>
+			<value>5</value>
+		</item>
+		<item name="Deepthi/RootViewController.swift">
+			<value>4</value>
+			<value>52</value>
+			<value>9</value>
+			<value>3</value>
+		</item>
+		<average label="NCSS" value="31.0"/>
+		<average label="CCN" value="7.5"/>
+		<average label="Functions" value="4.25"/>
+		<sum label="NCSS" value="124"/>
+		<sum label="CCN" value="30"/>
+		<sum label="Functions" value="17"/>
+		<average label="NCSS" value="5.823529411764706"/>
+		<average label="CCN" value="1.7647058823529411"/>
+	</measure>
+</cppncss>
+

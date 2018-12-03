@@ -1,0 +1,64 @@
+Analyzing 4 files:
+....
+
+********** Deepthi/AppDelegate.swift **********
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/AppDelegate.swift:14:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/AppDelegate.swift:16:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/AppDelegate.swift:23:101: warning: [max-line-length] Line is over maximum character limit (144/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/AppDelegate.swift:29:101: warning: [max-line-length] Line is over maximum character limit (285/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/AppDelegate.swift:30:101: warning: [max-line-length] Line is over maximum character limit (159/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/AppDelegate.swift:34:101: warning: [max-line-length] Line is over maximum character limit (218/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/AppDelegate.swift:35:101: warning: [max-line-length] Line is over maximum character limit (141/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/AppDelegate.swift:39:101: warning: [max-line-length] Line is over maximum character limit (155/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/AppDelegate.swift:43:101: warning: [max-line-length] Line is over maximum character limit (194/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/AppDelegate.swift:47:101: warning: [max-line-length] Line is over maximum character limit (128/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/AppDelegate.swift:52: warning: [terminating-newline] File should terminate with exactly one newline character ('\n')
+
+********** Deepthi/DataViewController.swift **********
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/DataViewController.swift:34: warning: [terminating-newline] File should terminate with exactly one newline character ('\n')
+
+********** Deepthi/ModelController.swift **********
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:13:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:14:101: warning: [max-line-length] Line is over maximum character limit (209/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:15:101: warning: [max-line-length] Line is over maximum character limit (178/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:16:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:17:101: warning: [max-line-length] Line is over maximum character limit (225/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:18:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:35:41: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:42:101: warning: [max-line-length] Line is over maximum character limit (130/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:42:111: warning: [forced-type-cast] Force casts should be avoided
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:47:73: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:49:101: warning: [max-line-length] Line is over maximum character limit (194/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:55:101: warning: [max-line-length] Line is over maximum character limit (149/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:56:65: warning: [forced-type-cast] Force casts should be avoided
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:60:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:65:101: warning: [max-line-length] Line is over maximum character limit (148/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:66:65: warning: [forced-type-cast] Force casts should be avoided
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:70:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/ModelController.swift:79: warning: [terminating-newline] File should terminate with exactly one newline character ('\n')
+
+********** Deepthi/RootViewController.swift **********
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:20:101: warning: [max-line-length] Line is over maximum character limit (132/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:23:101: warning: [max-line-length] Line is over maximum character limit (133/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:25:101: warning: [max-line-length] Line is over maximum character limit (130/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:25:121: warning: [parenthesis-whitespace] Parameter clause in closure signature should be preceded by exactly one space
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:32:101: warning: [max-line-length] Line is over maximum character limit (130/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:49:101: warning: [max-line-length] Line is over maximum character limit (102/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:56:9: warning: [lower-camel-case] Variable names should be lowerCamelCase
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:60:101: warning: [max-line-length] Line is over maximum character limit (164/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:61:101: warning: [max-line-length] Line is over maximum character limit (130/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:62:101: warning: [max-line-length] Line is over maximum character limit (333/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:65:101: warning: [max-line-length] Line is over maximum character limit (133/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:65:124: warning: [parenthesis-whitespace] Parameter clause in closure signature should be preceded by exactly one space
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:71:101: warning: [max-line-length] Line is over maximum character limit (327/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:72:84: warning: [forced-type-cast] Force casts should be avoided
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:72:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:75:101: warning: [max-line-length] Line is over maximum character limit (108/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:77:101: warning: [max-line-length] Line is over maximum character limit (146/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:80:101: warning: [max-line-length] Line is over maximum character limit (151/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:83:101: warning: [max-line-length] Line is over maximum character limit (129/100)
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:83:120: warning: [parenthesis-whitespace] Parameter clause in closure signature should be preceded by exactly one space
+/Users/deepthi/Documents/SourceCode/Samples/iOS/iOSSample/Deepthi/Deepthi/RootViewController.swift:90: warning: [terminating-newline] File should terminate with exactly one newline character ('\n')
+
+Analyzed 4 files, skipped 0 files, and detected 51 violations (0 errors, 51 warnings).
+
