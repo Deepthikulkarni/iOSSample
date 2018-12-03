@@ -14,9 +14,20 @@
 		290DD65D2189C4E4007693FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290DD65B2189C4E4007693FE /* Main.storyboard */; };
 		290DD65F2189C4E5007693FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290DD65E2189C4E5007693FE /* Assets.xcassets */; };
 		290DD6622189C4E5007693FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290DD6602189C4E5007693FE /* LaunchScreen.storyboard */; };
-		293376CF21A4128600AEDE42 /* sonar-project.properties in Resources */ = {isa = PBXBuildFile; fileRef = 293376CE21A4128600AEDE42 /* sonar-project.properties */; };
+		293376D121A42D6100AEDE42 /* sonar-project.properties in Resources */ = {isa = PBXBuildFile; fileRef = 293376D021A42D6100AEDE42 /* sonar-project.properties */; };
+		293376DA21A44CD000AEDE42 /* DeepthiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293376D921A44CD000AEDE42 /* DeepthiTests.swift */; };
 		298572992194507000008DA3 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 298572982194507000008DA3 /* Jenkinsfile */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		293376DC21A44CD000AEDE42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290DD6482189C4E4007693FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290DD64F2189C4E4007693FE;
+			remoteInfo = Deepthi;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		290DD6502189C4E4007693FE /* Deepthi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deepthi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,12 +39,23 @@
 		290DD65E2189C4E5007693FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		290DD6612189C4E5007693FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		290DD6632189C4E5007693FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		293376CE21A4128600AEDE42 /* sonar-project.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sonar-project.properties"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
+		293376D021A42D6100AEDE42 /* sonar-project.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sonar-project.properties"; sourceTree = "<group>"; };
+		293376D221A4496400AEDE42 /* run-sonar-swift.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "run-sonar-swift.sh"; sourceTree = "<group>"; };
+		293376D721A44CCF00AEDE42 /* DeepthiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepthiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293376D921A44CD000AEDE42 /* DeepthiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepthiTests.swift; sourceTree = "<group>"; };
+		293376DB21A44CD000AEDE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		298572982194507000008DA3 /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		290DD64D2189C4E4007693FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293376D421A44CCF00AEDE42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,8 +68,11 @@
 		290DD6472189C4E4007693FE = {
 			isa = PBXGroup;
 			children = (
+				293376D221A4496400AEDE42 /* run-sonar-swift.sh */,
 				298572982194507000008DA3 /* Jenkinsfile */,
+				293376D021A42D6100AEDE42 /* sonar-project.properties */,
 				290DD6522189C4E4007693FE /* Deepthi */,
+				293376D821A44CD000AEDE42 /* DeepthiTests */,
 				290DD6512189C4E4007693FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				290DD6502189C4E4007693FE /* Deepthi.app */,
+				293376D721A44CCF00AEDE42 /* DeepthiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				290DD6532189C4E4007693FE /* AppDelegate.swift */,
-				293376CE21A4128600AEDE42 /* sonar-project.properties */,
 				290DD6552189C4E4007693FE /* RootViewController.swift */,
 				290DD6572189C4E4007693FE /* DataViewController.swift */,
 				290DD6592189C4E4007693FE /* ModelController.swift */,
@@ -74,6 +99,15 @@
 				290DD6632189C4E5007693FE /* Info.plist */,
 			);
 			path = Deepthi;
+			sourceTree = "<group>";
+		};
+		293376D821A44CD000AEDE42 /* DeepthiTests */ = {
+			isa = PBXGroup;
+			children = (
+				293376D921A44CD000AEDE42 /* DeepthiTests.swift */,
+				293376DB21A44CD000AEDE42 /* Info.plist */,
+			);
+			path = DeepthiTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +130,24 @@
 			productReference = 290DD6502189C4E4007693FE /* Deepthi.app */;
 			productType = "com.apple.product-type.application";
 		};
+		293376D621A44CCF00AEDE42 /* DeepthiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293376DE21A44CD000AEDE42 /* Build configuration list for PBXNativeTarget "DeepthiTests" */;
+			buildPhases = (
+				293376D321A44CCF00AEDE42 /* Sources */,
+				293376D421A44CCF00AEDE42 /* Frameworks */,
+				293376D521A44CCF00AEDE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293376DD21A44CD000AEDE42 /* PBXTargetDependency */,
+			);
+			name = DeepthiTests;
+			productName = DeepthiTests;
+			productReference = 293376D721A44CCF00AEDE42 /* DeepthiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -108,6 +160,10 @@
 				TargetAttributes = {
 					290DD64F2189C4E4007693FE = {
 						CreatedOnToolsVersion = 9.4;
+					};
+					293376D621A44CCF00AEDE42 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 290DD64F2189C4E4007693FE;
 					};
 				};
 			};
@@ -125,6 +181,7 @@
 			projectRoot = "";
 			targets = (
 				290DD64F2189C4E4007693FE /* Deepthi */,
+				293376D621A44CCF00AEDE42 /* DeepthiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +194,15 @@
 				290DD6622189C4E5007693FE /* LaunchScreen.storyboard in Resources */,
 				298572992194507000008DA3 /* Jenkinsfile in Resources */,
 				290DD65F2189C4E5007693FE /* Assets.xcassets in Resources */,
-				293376CF21A4128600AEDE42 /* sonar-project.properties in Resources */,
+				293376D121A42D6100AEDE42 /* sonar-project.properties in Resources */,
 				290DD65D2189C4E4007693FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293376D521A44CCF00AEDE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +220,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		293376D321A44CCF00AEDE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293376DA21A44CD000AEDE42 /* DeepthiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		293376DD21A44CD000AEDE42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290DD64F2189C4E4007693FE /* Deepthi */;
+			targetProxy = 293376DC21A44CD000AEDE42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		290DD65B2189C4E4007693FE /* Main.storyboard */ = {
@@ -300,6 +380,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = LSVVD8ZPH6;
 				INFOPLIST_FILE = Deepthi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +402,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = LSVVD8ZPH6;
 				INFOPLIST_FILE = Deepthi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,6 +413,44 @@
 				PROVISIONING_PROFILE_SPECIFIER = CognizantEnterpriseMobility;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		293376DF21A44CD000AEDE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepthiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.DeepthiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deepthi.app/Deepthi";
+			};
+			name = Debug;
+		};
+		293376E021A44CD000AEDE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepthiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.DeepthiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deepthi.app/Deepthi";
 			};
 			name = Release;
 		};
@@ -351,6 +471,15 @@
 			buildConfigurations = (
 				290DD6672189C4E5007693FE /* Debug */,
 				290DD6682189C4E5007693FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293376DE21A44CD000AEDE42 /* Build configuration list for PBXNativeTarget "DeepthiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293376DF21A44CD000AEDE42 /* Debug */,
+				293376E021A44CD000AEDE42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
