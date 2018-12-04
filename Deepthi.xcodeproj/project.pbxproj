@@ -16,7 +16,6 @@
 		290DD6622189C4E5007693FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290DD6602189C4E5007693FE /* LaunchScreen.storyboard */; };
 		293376D121A42D6100AEDE42 /* sonar-project.properties in Resources */ = {isa = PBXBuildFile; fileRef = 293376D021A42D6100AEDE42 /* sonar-project.properties */; };
 		293376DA21A44CD000AEDE42 /* DeepthiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293376D921A44CD000AEDE42 /* DeepthiTests.swift */; };
-		298572992194507000008DA3 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 298572982194507000008DA3 /* Jenkinsfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		293376D721A44CCF00AEDE42 /* DeepthiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepthiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		293376D921A44CD000AEDE42 /* DeepthiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepthiTests.swift; sourceTree = "<group>"; };
 		293376DB21A44CD000AEDE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		298572982194507000008DA3 /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				293376D221A4496400AEDE42 /* run-sonar-swift.sh */,
-				298572982194507000008DA3 /* Jenkinsfile */,
 				293376D021A42D6100AEDE42 /* sonar-project.properties */,
 				290DD6522189C4E4007693FE /* Deepthi */,
 				293376D821A44CD000AEDE42 /* DeepthiTests */,
@@ -192,7 +189,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				290DD6622189C4E5007693FE /* LaunchScreen.storyboard in Resources */,
-				298572992194507000008DA3 /* Jenkinsfile in Resources */,
 				290DD65F2189C4E5007693FE /* Assets.xcassets in Resources */,
 				293376D121A42D6100AEDE42 /* sonar-project.properties in Resources */,
 				290DD65D2189C4E4007693FE /* Main.storyboard in Resources */,
