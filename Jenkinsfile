@@ -3,7 +3,7 @@ stage('Checkout') {
   echo "My branch is: ${env.BRANCH_NAME}"
 checkout([
 $class: 'GitSCM',
-branches: [[name: ${env.BRANCH_NAME}]],
+branches: [[name: env.BRANCH_NAME]],
 doGenerateSubmoduleConfigurations: false,
 extensions: [], submoduleCfg: [],
 userRemoteConfigs: [[
