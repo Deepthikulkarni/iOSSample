@@ -4,7 +4,7 @@ def getBranchName() {
 
 node{
 stage('Checkout') {
-  echo 'getting branch ' + getBranchName() + '...'
+  echo "My branch is: ${env.BRANCH_NAME}"
 checkout([
 $class: 'GitSCM',
 branches: [[name: getBranchName()]],
