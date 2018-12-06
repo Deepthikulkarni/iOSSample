@@ -4,9 +4,9 @@ def getBranchName() {
 
 node{
 stage('Checkout') {
+  echo 'getting branch ' + getBranchName() + '...'
 checkout([
 $class: 'GitSCM',
-  echo 'getting branch ' + getBranchName() + '...'
 branches: [[name: getBranchName()]],
 doGenerateSubmoduleConfigurations: false,
 extensions: [], submoduleCfg: [],
