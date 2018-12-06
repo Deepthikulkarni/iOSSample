@@ -7,7 +7,7 @@ stage('Checkout') {
 checkout([
 $class: 'GitSCM',
   echo 'getting branch ' + getBranchName() + '...'
-branches: [[name: 'getBranchName()]],
+branches: [[name: getBranchName()]],
 doGenerateSubmoduleConfigurations: false,
 extensions: [], submoduleCfg: [],
 userRemoteConfigs: [[
