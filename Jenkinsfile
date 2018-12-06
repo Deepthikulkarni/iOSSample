@@ -1,13 +1,9 @@
-def getBranchName() {
-  return scm.branches[0].name
-}
-
 node{
 stage('Checkout') {
   echo "My branch is: ${env.BRANCH_NAME}"
 checkout([
 $class: 'GitSCM',
-branches: [[name: getBranchName()]],
+branches: [[name: ${env.BRANCH_NAME}]],
 doGenerateSubmoduleConfigurations: false,
 extensions: [], submoduleCfg: [],
 userRemoteConfigs: [[
