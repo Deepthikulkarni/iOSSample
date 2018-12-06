@@ -13,6 +13,7 @@ url: 'https://github.com/Deepthikulkarni/iOSSample.git'
 }
 
 stage('Build') {
+sh "agvtool next-version -all" 
 sh "xcrun xcodebuild  -project Deepthi.xcodeproj -scheme Deepthi -destination 'name=iPhone 7' clean build"
 }
 
